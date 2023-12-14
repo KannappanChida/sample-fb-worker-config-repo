@@ -1,0 +1,15 @@
+{
+    "CONFIGS": {
+      "TENANT_ID": "3",
+      "ENVIRONMENT": "DEV",
+      "NAMESPACE": "TENANT_3",
+      "APP_URL": "https://login.test.com",
+      "APP_USERNAME": "E5Bot_03",
+      "APP_PASSWORD": "password",
+      "KAFKA_CONSUMER_GROUP_ID": "SAMPLE_APP_TENANT_3_CONSUMER_GROUP_ID_DEV",
+      "FB_INBOUND_COMMAND_TOPIC": "SAMPLE_APP_TENANT_3_FB_WORKER_COMMAND_TOPIC_DEV"
+    },
+    "USER_DEFINED_CONFIGS":{
+      "USER_CONFIGS" : "${TENANT_SPECIFIC_USER_CONFIG_IF_ANY}"
+    }
+}
